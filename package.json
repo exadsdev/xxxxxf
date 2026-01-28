@@ -1,0 +1,19 @@
+{
+  "name": "pgmobile-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+ "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "next": "15.0.5",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-next": "15.0.5"
+  }
+}
